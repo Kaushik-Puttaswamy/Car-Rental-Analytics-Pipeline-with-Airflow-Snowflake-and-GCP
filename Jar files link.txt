@@ -1,1 +1,0 @@
-Jar files link:snowflake-jdbc-3.16.0.jar:https://repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.16.0/snowflake-jdbc-3.16.0.jarspark-snowflake_2.12-2.15.0-spark_3.4.jar: https://repo1.maven.org/maven2/net/snowflake/spark-snowflake_2.12/2.15.0-spark_3.4/spark-snowflake_2.12-2.15.0-spark_3.4.jar
