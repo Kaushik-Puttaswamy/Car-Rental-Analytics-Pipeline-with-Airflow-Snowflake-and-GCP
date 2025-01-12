@@ -15,11 +15,11 @@ The Car Rental Batch Ingestion Project automates the processing and ingestion of
 
 Key tasks:
 
- • Extract the execution_date from parameters.
+   • Extract the execution_date from parameters.
    
- • Merge and insert data into Snowflake for the customer_dim table.
+   • Merge and insert data into Snowflake for the customer_dim table.
    
- • Submit a PySpark job to Dataproc for processing raw rental data.
+   • Submit a PySpark job to Dataproc for processing raw rental data.
    
    
 • DAG Graph:
