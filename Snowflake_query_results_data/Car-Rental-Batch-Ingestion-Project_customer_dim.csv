@@ -1,0 +1,11 @@
+﻿CUSTOMER_KEY,CUSTOMER_ID,NAME,EMAIL,PHONE,EFFECTIVE_DATE,END_DATE,IS_CURRENT
+1,CUST001,John Doe,john.doe_new@example.com,123-456-7890,2025-01-10T14:01:01.768Z,,TRUE
+2,CUST002,Jane Smith,jane.smith@example.com,123-456-7801,2025-01-10T14:01:01.768Z,,TRUE
+3,CUST003,Alice Johnson,alice.johnson_new@example.com,123-456-7802,2025-01-10T14:01:01.768Z,,TRUE
+4,CUST004,Bob Brown,bob.brown@example.com,123-456-7803,2025-01-10T14:01:01.768Z,,TRUE
+5,CUST005,Charlie Davis,charlie.davis@example.com,123-456-7804,2025-01-10T14:01:01.768Z,,TRUE
+6,CUST011,Ivy King,ivy.king@example.com,123-456-7810,2025-01-10T14:01:01.768Z,,TRUE
+7,CUST012,Jack Lee,jack.lee@example.com,123-456-7811,2025-01-10T14:01:01.768Z,,TRUE
+8,CUST013,Kathy Miller,kathy.miller@example.com,123-456-7812,2025-01-10T14:01:01.768Z,,TRUE
+9,CUST014,Larry Nelson,larry.nelson@example.com,123-456-7813,2025-01-10T14:01:01.768Z,,TRUE
+10,CUST015,Monica Oliver,monica.oliver@example.com,123-456-7814,2025-01-10T14:01:01.768Z,,TRUE
