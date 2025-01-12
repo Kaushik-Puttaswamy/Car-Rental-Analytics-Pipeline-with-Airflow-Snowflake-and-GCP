@@ -9,23 +9,24 @@ The Car Rental Batch Ingestion Project automates the processing and ingestion of
 
 ## Key Components and Workflow
 
-1. Airflow DAG:
+### 1. Airflow DAG:
    
-	• The DAG (car_rental_airflow_dag.py) orchestrates the data pipeline.
+ • The DAG (car_rental_airflow_dag.py) orchestrates the data pipeline.
 
-	•	Key tasks:
+Key tasks:
 
-	  •	Extract the execution_date from parameters.
+ • Extract the execution_date from parameters.
    
-	  •	Merge and insert data into Snowflake for the customer_dim table.
+ • Merge and insert data into Snowflake for the customer_dim table.
    
-	  •	Submit a PySpark job to Dataproc for processing raw rental data.
+ • Submit a PySpark job to Dataproc for processing raw rental data.
    
-  •	DAG Graph:
+   
+• DAG Graph:
   
 ![Airflow_dag_graph.png](https://github.com/Kaushik-Puttaswamy/Car-Rental-Analytics-Pipeline-with-Airflow-Snowflake-and-GCP/blob/main/Airflow_dag_graph.png)
 
-2. Data Processing with PySpark:
+### 2. Data Processing with PySpark:
    
 The PySpark script (spark_job.py) performs the following:
 
@@ -37,7 +38,7 @@ The PySpark script (spark_job.py) performs the following:
 
 • Writes the processed data to the rentals_fact table in Snowflake.
 
-3. Google Dataproc Cluster:
+### 3. Google Dataproc Cluster:
 
 • A Dataproc cluster is used to run the PySpark job.
 
@@ -45,7 +46,7 @@ The PySpark script (spark_job.py) performs the following:
 
 ![Dataproc_cluster_details](https://github.com/Kaushik-Puttaswamy/Car-Rental-Analytics-Pipeline-with-Airflow-Snowflake-and-GCP/blob/main/Dataproc_cluster_details.png)
 
-4. Snowflake Data Warehouse:
+### 4. Snowflake Data Warehouse:
    
 • Dimension and fact tables are designed for analytics:
 
@@ -55,7 +56,7 @@ The PySpark script (spark_job.py) performs the following:
 
 • Tables are populated using Snowflake SQL scripts (snowflake_dwh_setup.sql).
 
-5. Storage:
+### 5. Storage:
    
  • GCS is used for raw data storage:
  
