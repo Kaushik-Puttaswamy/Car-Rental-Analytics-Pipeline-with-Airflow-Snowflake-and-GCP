@@ -162,22 +162,22 @@ jar_files/: Links to required JAR files for Snowflake connectivity:
 
 #### Additional Information
 
-• Error Handling:
+1) Error Handling:
  
-  	• Airflow retries failed tasks with exponential backoff.
+• Airflow retries failed tasks with exponential backoff.
     
-  	• PySpark job validates data to prevent invalid records from propagating.
+• PySpark job validates data to prevent invalid records from propagating.
     
-•	Scalability:
+2) Scalability:
  
-  	• Dataproc handles large-scale data processing.
+• Dataproc handles large-scale data processing.
     
-  	• Snowflake supports efficient querying for massive datasets.
+• Snowflake supports efficient querying for massive datasets.
 
 #### Future Enhancements
 
-	• Automate the DAG trigger to run daily based on file availability.
+• Automate the DAG trigger to run daily based on file availability.
 
-	• Add monitoring and alerting for failed tasks.
+• Add monitoring and alerting for failed tasks.
 
-	• Optimize PySpark transformations for large datasets.
+• Optimize PySpark transformations for large datasets.
