@@ -1,4 +1,4 @@
-# Car-Rental-Analytics-Pipeline-with-Airflow-Snowflake-and-GCP
+# Car Rental Analytics Pipeline with Airflow Snowflake and GCP
 
 ## Project Overview
 
